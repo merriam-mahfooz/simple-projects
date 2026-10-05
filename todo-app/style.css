@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Nunito", sans-serif;
+    background-color: rgba(219, 230, 241, 0.92);
+}
+h1{
+    font-weight: 600;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px #888;
+}
+ul{
+    align-self: flex-start;
+    margin-left: 60px;
+}
+input[type="checkbox"]{
+    accent-color: black;
+}
+.add-btn{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    padding:5px;
+    cursor:pointer;
+}
+.task-input{
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 5px;
+}
+.task-input:focus{
+    background-color: #eee;
+    outline: none;
+}
+.delete{
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-style:none;
+}
+.delete-all{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+}
